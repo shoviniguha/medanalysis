@@ -9,6 +9,9 @@ Report Analyzer is an interactive web application designed to offer insightful a
 
 Additionally, it also serves as an intelligent companion – a cutting-edge conversational agent (Chat-Bot), responding to patient queries about their reports and diagnosed condition. This technology aims to enhance the diagnostic experience, fostering efficiency and clarity in medical interactions. Welcome to the future of healthcare diagnosis and patient engagement.
 
+![image](https://github.com/shoviniguha/medanalysis/assets/95578201/4049492a-1236-47d1-9e96-5fe4485090ad)
+
+
 # Tech Stack
 ## Front end:
 ### Next.js 14: Employed for building a dynamic and interactive user interface.
