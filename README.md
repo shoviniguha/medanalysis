@@ -1,3 +1,33 @@
+# MEDICAL REPORT ANALYZER 
+## Team Members: 
+### Anirban Ghosh (Heritage Institute of Technology, Btech in Computer Science and Engineering)
+### Atisha Bhattacharyya (Heritage Institute of Technology, Btech in Computer Science and Engineering)
+### Shovini Guha (Institute of Engineering and Management, Btech in Computer Science and Engineering) 
+
+# Overview
+Report Analyzer is an interactive web application designed to offer insightful analysis and diagnosis of medical reports provided by our users. Designed to revolutionize the process of disease identification, our system efficiently processes medical reports in PDF format, allowing the user to rapidly pinpoint potential health concerns.
+
+Additionally, it also serves as an intelligent companion – a cutting-edge conversational agent (Chat-Bot), responding to patient queries about their reports and diagnosed condition. This technology aims to enhance the diagnostic experience, fostering efficiency and clarity in medical interactions. Welcome to the future of healthcare diagnosis and patient engagement.
+
+# Tech Stack
+## Front end:
+### Next.js 14: Employed for building a dynamic and interactive user interface.
+### TypeScript: Utilized to enhance code quality and maintainability in the frontend
+## Backend Authentication:
+### MongoDB: Chosen as the backend database for efficient storage and retrieval of medical PDF documents.
+### Clerk: Integrated to manage user authentication seamlessly, supporting Google and email-based authentication methods.
+
+## Model: 
+### The project utilizes LLAMA Index to create an LLM (Large Language Model) that fetches the Mistral-7B-Instruct-v0.1 model from the Hugging Face Hub. 
+### Additionally, it incorporates an embedded model, all-mpnet-base-v2 from sentence-transformers, using Langchain embeddings on Hugging Face embeddings. The pretrained model is finetuned to analyze medical data from the fetched reports and provide a thorough evaluation through the interactive Chat Bot on our user friendly UI.
+## Integration:
+### Django 1.11: Used to integrate chatbot model with the frontend.
+
+```bash
+git clone https://github.com/shoviniguha/medanalysis
+cd medanalysis
+pip install -r requirements.txt
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
